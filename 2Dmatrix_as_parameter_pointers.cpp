@@ -43,6 +43,8 @@ void fill(int *arr, int a, int b)//pointer, size, size
     for(int j=0;j<b;j++)
       cin>>*(arr+i*b+j);
   }
+  
+  delete arr;
 }
 void display(int *arr, int a, int b)//pointer, size, size
 {
@@ -53,4 +55,6 @@ void display(int *arr, int a, int b)//pointer, size, size
       cout<<*(arr+i*b+j)<<" ";
     cout<<endl;
   }
+  
+  delete arr;
 }
