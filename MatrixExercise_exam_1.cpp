@@ -6,6 +6,9 @@ Description: (Spanish)
 y muestre únicamente los índices (2, n+1), (3, n+1) y (4, n+1). Ejemplo (2, 0), (2 ,1), (2, 2), (2, 3), (2, 4). 
 
 This code has no explanation, for this moment the student hasn't done the exam.
+
+By Mario De Los Santos 
+Open-license.
 */
 
 #include <iostream>
