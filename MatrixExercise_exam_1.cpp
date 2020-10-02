@@ -5,7 +5,7 @@ Description: (Spanish)
 13.	Ejercicio de programación 1: Escribe un programa que pida al usuario llenar dos matrices 5x5, las sume 
 y muestre únicamente los índices (2, n+1), (3, n+1) y (4, n+1). Ejemplo (2, 0), (2 ,1), (2, 2), (2, 3), (2, 4). 
 
-This code has no explanation, for this moment the student hasn't done the exam.
+This code has no explanation, at this moment the students haven't done the exam.
 
 By Mario De Los Santos 
 Open-license.
