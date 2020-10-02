@@ -1,7 +1,12 @@
 /*
+Exercise for the first exam. Laboratorio de Elementos programables II.
 
+Description: (Spanish)
+Escribe un programa que llene una matriz 5x6 con los números pares del rango asignado por el usuario, 
+imprima los números en orden matricial, y multiplique la matriz final por 3.
 
 This code has no explanation, at this moment the students haven't done the exam.
+
 By Mario De Los Santos
 Open-license
 */
