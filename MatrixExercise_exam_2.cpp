@@ -1,5 +1,12 @@
 /*
+Exercise for the first exam. Laboratorio de Elementos programables II.
 
+Description: (Spanish)
+ 14.	Ejercicio de programación 2: Escribe un programa que pida al usuario ingresar 10 números muestre:
+ la suma, el promedio, los menores a 10, los mayores a 20, el cuadrado de cada numero y factorial. 
+ (Divida cada muestra con un mensaje: “Suma”). Optimice su código al mínimo necesario.
+
+This code has no explanation, at this moment the students haven't done the exam.
 
 By Mario De Los Santos
 Open-license.
