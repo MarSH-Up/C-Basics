@@ -9,7 +9,7 @@ Open-License.
 using namespace std;
 
 
-int swapMatrix(int *a1, int *a2, int a, int b);
+int swapMatrix(int *a1, int *a2, int a, int b); //Value part
 int main()
 {
   int x, y=3;
@@ -17,7 +17,8 @@ int main()
   cout<<"Matrix 3x3: "<<endl;
   int A[x][y];
   int B[x][y];
-
+  
+ //Fill
   cout<<"Matrix A"<<endl;
   for(int i=0;i<x;i++)
     for(int j=0;j<y;j++)
@@ -28,8 +29,9 @@ int main()
       for(int j=0;j<y;j++)
         cin>>B[i][j];
 
-  swapMatrix((int*)A, (int*)B, x, y);
-
+  swapMatrix((int*)A, (int*)B, x, y); //Value part
+  
+  //Display
   cout<<"Matrix A"<<endl;
   for(int i=0;i<x;i++)
   {
@@ -48,7 +50,7 @@ int main()
   return 0;
 }
 
-int swapMatrix(int *a1, int *a2, int a, int b)
+int swapMatrix(int *a1, int *a2, int a, int b) //Value part
 {
   int A[3][3]={0};
   for(int i=0;i<a;i++)
