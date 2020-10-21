@@ -14,28 +14,28 @@ int main()
   cout<<"Define x"<<endl;
   int x;
   cin>>x;
-  A= new int *[x]; //Value part
+  A= new int *[x];
   cout<<"Define Y"<<endl;
   int y;
   cin>>y;
-  for(int i=0;i<y;i++)//value part
+  for(int i=0;i<y+1;i++)
   {
     A[i] = new int[y];
     cout<<i<<endl;
   }
 
-  matrix(A,x,y); //Value part
+  matrix(A,x,y);
 
   cout<<"Display"<<endl;
-  for(int i=0;i<3;i++)
+  for(int i=0;i<x;i++)
   {
-    for(int j=0;j<4;j++)
+    for(int j=0;j<y;j++)
       cout<<A[i][j]<<" ";
   cout<<endl;
   }
   delete[]A;
 }
-void matrix(int **A,int x, int y) //Value part
+void matrix(int **A,int x, int y)
 {
   cout<<"Fill"<<endl;
   for(int i=0;i<x;i++)
