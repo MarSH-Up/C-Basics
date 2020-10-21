@@ -4,7 +4,6 @@ Note: This is a way to pass an N-dimensional array as a parameter, but not the o
 By Mario De Los Santos
 Open-License. 
 */
-
 #include <iostream>
 using namespace std;
 
@@ -15,30 +14,34 @@ int main()
   cout<<"Define x"<<endl;
   int x;
   cin>>x;
-  A= new int *[x];
+  A= new int *[x]; //Value part
   cout<<"Define Y"<<endl;
   int y;
   cin>>y;
-  for(int i=0;i<y;i++)
+  for(int i=0;i<y;i++)//value part
   {
     A[i] = new int[y];
     cout<<i<<endl;
   }
 
-  matrix(A,x,y);
+  matrix(A,x,y); //Value part
 
   cout<<"Display"<<endl;
   for(int i=0;i<3;i++)
+  {
     for(int j=0;j<4;j++)
-    cout<<A[i][j];
-
+      cout<<A[i][j]<<" ";
+  cout<<endl;
+  }
   delete[]A;
 }
-void matrix(int **A,int x, int y)
+void matrix(int **A,int x, int y) //Value part
 {
   cout<<"Fill"<<endl;
   for(int i=0;i<x;i++)
+  {
     for(int j=0;j<y;j++)
       cin>>A[i][j];
-    cout<<endl;
+  }
+  cout<<"Done"<<endl;
 }
